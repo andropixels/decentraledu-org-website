@@ -6,7 +6,12 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="./assets//videos/video-2.mp4" autoPlay loop muted />
+      <video
+        src="https://github.com/Decentraledu/decentraledu-org-website/blob/959c4ec128a2f4b0de46471ac0d9fdee24037ade/src/assets/videos/video-2.mp4"
+        autoPlay
+        loop
+        muted
+      />
       <h1>Decentralized Education Metaverse</h1>
       <p>
         Engage with new form of online education in fun, transparent and
