@@ -17,19 +17,19 @@ function HeroSection() {
         New form of online education in fun, transparent and decentralized way.
       </p>
       <div className="hero-btns">
-        <Button
+        {/* <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
           GET STARTED
-        </Button>
+        </Button> */}
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          WATCH DEMO <i className="far fa-play-circle" />
+          GET INVOLVED <i className="far fa-arrow-alt-circle-right" />
         </Button>
       </div>
     </div>

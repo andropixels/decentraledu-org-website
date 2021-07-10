@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            DecentralEdu 
+            DecentralEdu
             <span>"</span>
             <i class="fas fa-user-graduate" />
           </Link>
@@ -67,7 +67,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/contact-us"
+                to="/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >

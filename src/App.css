@@ -9,7 +9,7 @@
 .whitepaper,
 .contribute,
 .about,
-.contact-us {
+.sign-up {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .whitepaper {
-  background-image: url("./assets/images/img-2.jpg");
+  background-image: url("./assets/images/img-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 }
 
 .contribute {
-  background-image: url("./assets/images/img-1.jpg");
+  background-image: url("./assets/images/img-2.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -44,8 +44,8 @@
   font-size: 100px;
 }
 
-.contact-us {
-  background-image: url("./assets/images/img-8.jpg");
+.sign-up {
+  background-image: url("./assets/images/img-5.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
