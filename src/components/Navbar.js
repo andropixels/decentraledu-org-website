@@ -29,8 +29,9 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            DecentralEdu
-            <i class="fab fa-typo3" />
+            DecentralEdu 
+            <span>"</span>
+            <i class="fas fa-user-graduate" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

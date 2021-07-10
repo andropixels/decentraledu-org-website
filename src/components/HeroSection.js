@@ -14,8 +14,7 @@ function HeroSection() {
       />
       <h1>Decentralized Education Metaverse</h1>
       <p>
-        Engage with new form of online education in fun, transparent and
-        decentralized way.
+        New form of online education in fun, transparent and decentralized way.
       </p>
       <div className="hero-btns">
         <Button
