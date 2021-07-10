@@ -1,0 +1,75 @@
+.newsletter-container {
+  background-color: lightgray;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #fff;
+}
+
+.newsletter-subscription > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.newsletter-heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.newsletter-text {
+  margin-bottom: 24px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.newsletter-input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+/* Media */
+@media screen and (max-width: 820px) {
+  .footer-links {
+    padding-top: 2rem;
+  }
+
+  .footer-input {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .footer-link-wrapper {
+    flex-direction: column;
+  }
+
+  .social-media-wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}

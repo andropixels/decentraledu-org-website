@@ -8,9 +8,9 @@ function Cards() {
       <h1>Let's Contribute</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-          <ul className="cards__items">
+          {/* <ul className="cards__items">
             <CardItem
-              src="../assets/images/img-9.jpg"
+              src="../assets/images/img-7.jpg"
               text="Explore the hidden treasure in online education"
               label="Contribute"
               path="/contribute"
@@ -21,7 +21,7 @@ function Cards() {
               label="About"
               path="/about"
             />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

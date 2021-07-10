@@ -1,0 +1,49 @@
+.section {
+  padding: 4rem;
+  background: #fff;
+}
+
+.section__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.section__wrapper > p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* ------ Reversed ------ */
+.section__reversed {
+  padding: 4rem;
+  background: black;
+}
+
+.section__container__reversed {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.section__wrapper__reversed {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.section__wrapper__reversed > p {
+  font-size: 20px;
+  text-align: justify;
+}
