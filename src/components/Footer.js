@@ -12,7 +12,6 @@ function Footer() {
             <h2>About Us</h2>
             <Link to="/sign-up">How it works</Link>
             <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
             <Link to="/">Investors</Link>
             <Link to="/">Terms of Service</Link>
           </div>
@@ -20,7 +19,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
+            <Link to="/">Educators</Link>
             <Link to="/">Sponsorships</Link>
           </div>
         </div>
@@ -33,11 +32,12 @@ function Footer() {
             <Link to="/">Influencer</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
+            <h2>Community</h2>
+            <Link to="/">GitHub</Link>
+            <Link to="/">Medium</Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
+            <Link to="/">LinkedIn</Link>
           </div>
         </div>
       </div>
@@ -52,20 +52,20 @@ function Footer() {
           <small class="website-rights">DecentralEdu © 2021</small>
           <div class="social-icons">
             <Link
-              class="social-icon-link facebook"
+              class="social-icon-link github"
               to="/"
               target="_blank"
-              aria-label="Facebook"
+              aria-label="Github"
             >
-              <i class="fab fa-facebook-f" />
+              <i class="fab fa-github" />
             </Link>
             <Link
-              class="social-icon-link instagram"
+              class="social-icon-link medium"
               to="/"
               target="_blank"
-              aria-label="Instagram"
+              aria-label="Medium"
             >
-              <i class="fab fa-instagram" />
+              <i class="fab fa-medium-m" />
             </Link>
             <Link
               class="social-icon-link youtube"
