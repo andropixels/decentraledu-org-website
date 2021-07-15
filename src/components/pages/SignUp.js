@@ -1,5 +1,7 @@
 import React from "react";
 import "../../App.css";
+import { Button } from "../Button";
+import "../Button.css";
 
 export default function SignUp() {
   return (
@@ -7,9 +9,15 @@ export default function SignUp() {
       <h1 className="sign-up">CONTACT US</h1>
       <div className="section">
         <div className="section__container">
-          <h1>Let's see how you can contribute.</h1>
+          <h1>Feel Free To Contact Us</h1>
           <div className="section__wrapper">
-            <h2>Here what we need your collaboration</h2>
+            <Button
+              className="btns"
+              buttonStyle="btn--primary--reversed"
+              buttonSize="btn--large"
+            >
+              COUNT ME IN <i className="far fa-arrow-alt-circle-right" />
+            </Button>
           </div>
         </div>
       </div>

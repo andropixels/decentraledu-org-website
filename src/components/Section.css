@@ -20,12 +20,14 @@
 .section__wrapper > p {
   font-size: 20px;
   text-align: justify;
+  font-weight: normal;
+  color: rgb(100, 100, 100);
 }
 
 /* ------ Reversed ------ */
 .section__reversed {
   padding: 4rem;
-  background: black;
+  background: rgb(37, 37, 37);
 }
 
 .section__container__reversed {

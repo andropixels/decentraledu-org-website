@@ -8,9 +8,13 @@ export default function About() {
       <h1 className="about">ABOUT US</h1>
       <div className="section">
         <div className="section__container">
-          <h1>Let's see how you can contribute.</h1>
+          <h1>Open Collections</h1>
           <div className="section__wrapper">
-            <h2>Here what we need your collaboration</h2>
+            <p>
+              We are global, open, non-profit organization who aim to create
+              open, transparent, and decentralized online education platform in
+              new and fun way utilizing blockchain, and metaverse technology.
+            </p>
           </div>
         </div>
       </div>
